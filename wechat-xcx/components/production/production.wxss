@@ -23,10 +23,10 @@
 .p-name {
   font-size: 30rpx;
   word-break: break-all;
-  line-height: 30rpx;
+  line-height: 31rpx;
   display: block;
   margin-bottom: 6rpx;
-  max-height: 60rpx;
+  max-height: 62rpx;
   overflow: hidden;
   flex-shrink: 0;
   flex-grow: 0;
@@ -37,9 +37,9 @@
 .p-info-discount {
   border: 2rpx solid #ec6933;
   font-size: 22rpx;
-  padding: 2rpx 4rpx;
+  padding: 2rpx 6rpx;
   height: 30rpx;
-  border-radius: 15rpx;
+  border-radius: 20rpx;
   color: #ec6933;
   margin-right: 10rpx;
 }

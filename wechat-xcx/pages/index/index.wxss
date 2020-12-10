@@ -1,7 +1,29 @@
 /**index.wxss**/
 
 /* ===================== */
-
+.pop-fixed{
+  position: fixed;
+  right: 80rpx;
+  top: 10px;
+  background-color: rgba(236,105,51,0.96);
+  font-size: 28rpx;
+  color: #ffffff;
+  width: 500rpx;
+  box-sizing: border-box;
+  padding: 15rpx 10rpx;
+  border-radius: 10rpx;
+  line-height: 50rpx;
+}
+.pop-fixed-san{
+  width: 0;
+  height: 0;
+  border-left: 10rpx solid transparent;
+  border-right: 10rpx solid transparent;
+  border-bottom: 20rpx solid rgba(236,105,51,0.96);
+  position: absolute;
+  right: 70rpx;
+  top: -20rpx;
+}
 .menu {
   display: flex;
   align-items: center;

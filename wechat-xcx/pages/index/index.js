@@ -7,7 +7,13 @@ import env from "../../env";
 Page({
   onShareAppMessage: function() {
     return {
-      title: "券多省钱通",
+      title: "这里居然有这么多的拼多多优惠券～",
+      path: "/pages/index/index",
+    }
+  },
+  onShareTimeline: function(){
+    return {
+      title: "这里居然有这么多的拼多多优惠券～",
       path: "/pages/index/index",
     }
   },
@@ -96,6 +102,13 @@ Page({
     // 排序方式:0-综合排序;3-按价格升序;4-按价格降序;6-按销量降序;12-按照加入多多进宝时间降序;;8-优惠券金额排序降序
     sort_type: 0,
     page: 1,
+    isShowFixed: app.globalData.isShowFixed
+  },
+  setFixedTrue(){
+    wx.setStorageSync('isShowFixed', true)
+    this.setData({
+      isShowFixed: true
+    })
   },
   gotowaimai: function(event) {
     wx.navigateToMiniProgram({

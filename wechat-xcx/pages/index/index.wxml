@@ -1,5 +1,9 @@
 <!--index.wxml-->
-<view class="container">
+<view class="container" bindtap="setFixedTrue">
+  <view class="pop-fixed" wx:if='{{!isShowFixed}}'>
+    <view class="pop-fixed-san"></view>
+    点击「右上角的‘...’」->「添加到我的小程序」,下次访问更便捷
+  </view>
   <view class="menu">
     <!-- // 0-1.9包邮, 1-今日爆款, 2-品牌好货,3-相似商品推荐,4-猜你喜欢,5-实时热销,6-实时收益,7-今日畅销,8-高佣榜单，默认1 -->
     <view class="menu-item" bindtap="gotoStype" data-type="{{5}}" data-title="爆款排行" data-banner="{{env.subTypeBannerImage.shot}}">

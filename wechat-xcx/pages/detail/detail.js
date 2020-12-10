@@ -72,10 +72,19 @@ Page({
 　　　imageUrl: this.data.detail.goods_thumbnail_url,
     };
   },
+  onShareTimeline: function(e){
+    let path = '/pages/detail/detail?gid=' + this.data.goods_id + '&search_id=' + this.data.search_id;
+    return {
+      title: "这里有好多拼多多券可以领取哦~",
+      path: path,
+　　　 imageUrl: this.data.detail.goods_thumbnail_url,
+    };
+  },
   buy() {
     wx.showLoading({
       title: '处理中...',
     });
+    console.log(222)
     wx.cloud.callFunction({
       name: "pquery",
       data: {

@@ -3,21 +3,15 @@ export default {
   wxCloudEnv: "",
   // 跳转外卖券
   waimai: {
-    appId: "wxbc8391c07266a8f5",
+    appId: "wxe371f5247b752cea",
     path: "/pages/index/index",
   },
   // 其他小程序
   otherMiniPrograms: [
     {
       icon: "/images/waimai.png",
-      name: "外卖领券",
-      appId: "wxbc8391c07266a8f5",
-      path: "/pages/index/index",
-    },
-    {
-      icon: "/images/gyrl.png",
-      name: "光阴日历",
-      appId: "wx7fcb1d8c63c98fc8",
+      name: "外卖券不停",
+      appId: "wxe371f5247b752cea",
       path: "/pages/index/index",
     },
   ],
@@ -26,10 +20,10 @@ export default {
   // 首页子分类进去的详情页顶部banner图片地址
   subTypeBannerImage: {
     shot:
-      "cloud://ddlq-3g4f48et11eabade.6464-ddlq-3g4f48et11eabade-1304228075/s-hot.jpg",
+      "cloud://baozi123-54840a.6261-baozi123-54840a-1258581821/s-hot.png",
     s19:
-      "cloud://ddlq-3g4f48et11eabade.6464-ddlq-3g4f48et11eabade-1304228075/s-19.jpg",
+      "cloud://baozi123-54840a.6261-baozi123-54840a-1258581821/s-19.png",
     spp:
-      "cloud://ddlq-3g4f48et11eabade.6464-ddlq-3g4f48et11eabade-1304228075/s-pp.jpg",
+      "",
   },
 };

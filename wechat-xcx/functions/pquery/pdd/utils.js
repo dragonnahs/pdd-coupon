@@ -2,11 +2,11 @@ const CryptoJS = require("crypto-js");
 const MD5 = require("crypto-js/md5");
 
 // 拼多多应用client_secret
-const SECRET = "";
+const SECRET = "18ea1df3f7d611bd483ee05180a7839ad3d7f9dd";
 // 拼多多应用client_id
-const CLIENTID = "";
+const CLIENTID = "47f53837405f46fa96556260cb4b24a5";
 // 拼多多推广位PID
-const PDDPID = "";
+const PDDPID = "13762185_181910951";
 
 function sign(params) {
   var sorted = Object.keys(params).sort();

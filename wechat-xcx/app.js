@@ -11,5 +11,6 @@ App({
     }
   },
   globalData: {
+    isShowFixed: wx.getStorageSync('isShowFixed')
   }
 })

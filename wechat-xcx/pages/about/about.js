@@ -42,9 +42,10 @@ Page({
    * 页面上拉触底事件的处理函数
    */
   onReachBottom: function () {},
-  topdd: function () {
-    wx.navigateToMiniProgram({
-      appId: env.pddAppId,
+  gotoStype: function(event) {
+    console.log(event);
+    wx.navigateTo({
+      url: '/pages/stype/stype?type=' + event.currentTarget.dataset.type + "&title=" + event.currentTarget.dataset.title + "&banner=" + event.currentTarget.dataset.banner,
     });
   },
   toOtherMiniPrograms: function (e) {

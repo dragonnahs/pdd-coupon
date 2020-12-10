@@ -2,7 +2,7 @@
   "usingComponents": {
     "production": "/components/production/production"
   },
-  "navigationBarTitleText": "券多省钱通",
+  "navigationBarTitleText": "好物券好多",
   "enablePullDownRefresh": true,
   "onReachBottomDistance": 60
 }

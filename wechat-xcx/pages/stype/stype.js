@@ -16,6 +16,18 @@ Page({
     offset: 0,
     limit: 10,
   },
+  onShareAppMessage: function() {
+    return {
+      title: "这里居然有这么多的拼多多优惠券～",
+      path: "/pages/index/index",
+    }
+  },
+  onShareTimeline: function(){
+    return {
+      title: "这里居然有这么多的拼多多优惠券～",
+      path: "/pages/index/index",
+    }
+  },
   onPullDownRefresh: function() {
     this.reloadData();
     setTimeout(() => {

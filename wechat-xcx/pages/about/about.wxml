@@ -12,12 +12,16 @@
 
   <view class="section">
     <view class="section-top">
-      <text class="section-text">商品订单</text>
+      <text class="section-text">更多优惠</text>
     </view>
     <view class="section-bottom">
-      <view class="section-bottom-item" bindtap="topdd">
-        <image src="/images/pdd.png"  mode="aspectFit"/>
-        <text>拼多多</text>
+      <view class="section-bottom-item" bindtap="gotoStype" data-type="7" data-title="今日畅销" data-banner="">
+        <image src="/images/jrcx.png"  mode="aspectFit"/>
+        <text>今日畅销</text>
+      </view>
+      <view class="section-bottom-item" bindtap="gotoStype" data-type="4" data-title="个人喜好" data-banner="">
+        <image src="/images/cnxh.png"  mode="aspectFit"/>
+        <text>个人喜好</text>
       </view>
     </view>
   </view>
